@@ -1,0 +1,19 @@
+# OpenSpec 配置
+# 参考: https://openspec.dev (占位)
+
+version: "1.0"
+
+# 项目元数据
+project:
+  name: "my-project"
+  description: "项目描述"
+
+# 规范设置
+specs:
+  # 新规范的默认域名
+  default_domain: "core"
+
+# 变更提案设置
+changes:
+  # 新提案使用的模板
+  template: "default"

@@ -1,0 +1,65 @@
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== Maven =====
+.mvn/
+mvnw
+mvnw.cmd
+
+# ===== IDE =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+*.swp
+*.swo
+
+# ===== Node.js =====
+node_modules/
+dist/
+.cache/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+nul
+
+# ===== Env / Secrets =====
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# ===== Build Artifacts =====
+build/
+out/
+*.tmp
+*.bak
+
+# ===== Auto-generated =====
+auto-imports.d.ts
+components.d.ts
+
+# ===== Misc =====
+doc_content.txt
+_frontend_section_new.md
+_replace_section.js
+_replace_section.ps1
+read_doc.ps1
+read_doc2.ps1
+front_style/

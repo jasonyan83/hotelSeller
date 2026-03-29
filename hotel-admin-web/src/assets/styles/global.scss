@@ -1,0 +1,119 @@
+/* ===== Global Reset & Base Styles ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  color: $color-text-primary;
+  background-color: $color-bg-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+/* ===== Page Wrapper ===== */
+.page-container {
+  padding: $spacing-lg;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-lg;
+
+  h2 {
+    font-size: $font-size-xxl;
+    font-weight: 600;
+    color: $color-text-primary;
+  }
+}
+
+/* ===== Card Style ===== */
+.page-card {
+  background: $color-bg-white;
+  border-radius: $radius-md;
+  box-shadow: $shadow-sm;
+  padding: $spacing-lg;
+}
+
+/* ===== Filter Bar ===== */
+.filter-bar {
+  display: flex;
+  gap: $spacing-md;
+  margin-bottom: $spacing-lg;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ===== Table Actions ===== */
+.table-actions {
+  display: flex;
+  gap: $spacing-sm;
+}
+
+/* ===== Stat Cards ===== */
+.stat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: $spacing-lg;
+  margin-bottom: $spacing-lg;
+}
+
+.stat-card {
+  background: $color-bg-white;
+  border-radius: $radius-md;
+  box-shadow: $shadow-sm;
+  padding: $spacing-lg;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__info {
+    .label {
+      font-size: $font-size-sm;
+      color: $color-text-secondary;
+      margin-bottom: $spacing-xs;
+    }
+    .value {
+      font-size: 28px;
+      font-weight: 700;
+      color: $color-text-primary;
+    }
+  }
+
+  &__icon {
+    width: 48px;
+    height: 48px;
+    border-radius: $radius-md;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+
+    &.primary { background: rgba(64, 158, 255, 0.1); color: $color-primary; }
+    &.success { background: rgba(103, 194, 58, 0.1); color: $color-success; }
+    &.warning { background: rgba(230, 162, 60, 0.1); color: $color-warning; }
+    &.danger { background: rgba(245, 108, 108, 0.1); color: $color-danger; }
+  }
+}
+
+/* ===== Status Tags ===== */
+.status-online {
+  color: $color-success;
+}
+
+.status-offline {
+  color: $color-danger;
+}

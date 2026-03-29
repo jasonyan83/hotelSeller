@@ -1,0 +1,49 @@
+// ===== 主色 =====
+$color-primary:        #D4513B;
+$color-primary-light:  #F9EEEC;
+$color-primary-dark:   #B8412E;
+
+// ===== 辅助色 =====
+$color-orange:         #F0883A;
+$color-orange-light:   #FFF5EC;
+$color-green:          #4CAF50;
+$color-green-light:    #E8F5E9;
+$color-gold:           #F5A623;
+
+// ===== 中性色 =====
+$color-gray-100:       #F7F8FA;
+$color-gray-200:       #F0F1F5;
+$color-gray-300:       #E5E6EB;
+$color-gray-500:       #999999;
+$color-gray-700:       #666666;
+$color-gray-900:       #1A1A1A;
+$color-white:          #FFFFFF;
+$color-bg:             #F5F5F5;
+
+// ===== 间距系统 =====
+$space-xs:   4px;
+$space-sm:   8px;
+$space-md:   12px;
+$space-lg:   16px;
+$space-xl:   20px;
+$space-xxl:  24px;
+
+// ===== 圆角 =====
+$radius-sm:   3px;
+$radius-md:   6px;
+$radius-lg:   8px;
+$radius-xl:   12px;
+$radius-pill: 20px;
+$radius-chip: 14px;
+$radius-circle: 50%;
+
+// ===== 字体 =====
+$font-family: -apple-system, 'PingFang SC', 'Helvetica Neue', 'Microsoft YaHei', sans-serif;
+
+// ===== 阴影 =====
+$shadow-card: 0 2px 12px rgba(0, 0, 0, 0.06);
+$shadow-popup: 0 -4px 12px rgba(0, 0, 0, 0.08);
+
+// ===== 动画 =====
+$transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
